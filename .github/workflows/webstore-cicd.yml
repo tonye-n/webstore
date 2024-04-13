@@ -3,7 +3,7 @@
 name: webstore-cicd
 
 on:
-  workflow_dispatch:
+  push:
   
 env:
   AZURE_WEBAPP_NAME: 'web-app5516'    
